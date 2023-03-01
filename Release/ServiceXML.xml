@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+<Services>
+	<!--Radar服务-->
+	<service name="Radar探测Enemy位置">
+	</service>
+</Services>
+
+<wait>
+	<A>
+		<service name="指挥中心引导飞行">
+		</service>
+	</A>
+</wait>
+</root>
